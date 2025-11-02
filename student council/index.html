@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Соёлын өдөр</title>
+  <title>Соёлын өдөр | Nomt Naran</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="header">
-    <img src="logo-removebg-preview.png" alt="Culture Day Logo" class="logo">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AwudsJNvRo174TL5k6vxzw6zIJto5pmvKg&s" alt="logo1">
+    <div class="logo-container">
+      <img src="logo-removebg-preview.png" alt="Student Council Logo" class="logo">
+    </div>
     <hr>
+    <h1 id="title">Соёлын өдөр / Culture Day</h1>
   </header>
 
   <main class="countries">
@@ -19,19 +21,22 @@
       <div class="country-card" data-country="brazil">
         <img src="https://flagcdn.com/w80/br.png" alt="Бразил">
         <h2>Бразил</h2>
-        <p>Баяр хөөр, самба хөгжим, хөлбөмбөгөөрөө алдартай улс.</p>
+        <p>Самба хөгжим, баяр хөөр, хөлбөмбөгөөрөө алдартай улс.</p>
+        <span class="location">Байршил: 12А (3-р давхар, урд жигүүр)</span>
       </div>
 
       <div class="country-card" data-country="egypt">
         <img src="https://flagcdn.com/w80/eg.png" alt="Египет">
         <h2>Египет</h2>
-        <p>Пирамид, түүх, хөгжим, халуун зочломтгой зангаар онцлог.</p>
+        <p>Пирамид, түүх, дулаан зочломтгой зангаар онцлог.</p>
+        <span class="location">Байршил: 12B (3-р давхар, урд жигүүр)</span>
       </div>
 
       <div class="country-card" data-country="qatar">
         <img src="https://flagcdn.com/w80/qa.png" alt="Катар">
         <h2>Катар</h2>
         <p>Орчин үе ба уламжлалт бедуин соёлыг хослуулсан улс.</p>
+        <span class="location">Байршил: 11A (3-р давхар, хойд жигүүр)</span>
       </div>
     </div>
 
@@ -40,31 +45,24 @@
         <img src="https://flagcdn.com/w80/ma.png" alt="Марокко">
         <h2>Марокко</h2>
         <p>Мозайк урлаг, халуун цай, амтлаг тахинаараа алдартай.</p>
+        <span class="location">Байршил: 11B (3-р давхар, хойд жигүүр)</span>
       </div>
 
       <div class="country-card" data-country="slovenia">
         <img src="https://flagcdn.com/w80/si.png" alt="Словени">
         <h2>Словени</h2>
         <p>Ардын дуу, бүжиг, байгалиа эрхэмлэдэг улс.</p>
+        <span class="location">Байршил: 10A (3-р давхар, урд жигүүр)</span>
       </div>
 
       <div class="country-card" data-country="greece">
         <img src="https://flagcdn.com/w80/gr.png" alt="Грек">
         <h2>Грек</h2>
         <p>Домог, философи, амьд хөгжмөөрөө алдартай орон.</p>
+        <span class="location">Байршил: 10B (3-р давхар, урд жигүүр)</span>
       </div>
     </div>
   </main>
-
-  <!-- Popup Modal -->
-  <div class="popup" id="popup">
-    <div class="popup-content">
-      <span class="close" id="closeBtn">&times;</span>
-      <h2 id="popupTitle"></h2>
-      <p id="popupDesc"></p>
-      <p id="popupLoc"></p>
-    </div>
-  </div>
 
   <script src="java.js"></script>
 </body>
